@@ -1,3 +1,7 @@
+"""
+Test simple Flask application to learn CI with pylint
+"""
+
 from flask import Flask
 
 app = Flask(__name__)

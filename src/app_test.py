@@ -19,7 +19,7 @@ class FlaskAppTests(unittest.TestCase):
         Tests a GET request to see if web server is functioning
         """
         response = self.app.get('/')
-        print(self.assertEqual(response.data, b'Hello World!!!'))
+        print(self.assertEqual(response.data, b'Hello, World!!!'))
         print(self.assertEqual(response.status_code, 200))
 
 if __name__ == '__main__':

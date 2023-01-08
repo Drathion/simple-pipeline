@@ -23,3 +23,5 @@ jobs:
     - name: Analysing the code with pylint
       run: |
         pylint $(git ls-files '*.py')
+    - name: Run web app test
+      run: coverage run app_test.py

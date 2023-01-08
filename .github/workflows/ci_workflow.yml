@@ -25,4 +25,4 @@ jobs:
       run: |
         pylint $(git ls-files '*.py')
     - name: Run web app test
-      run: coverage run app_test.py
+      run: coverage run src/app_test.py
